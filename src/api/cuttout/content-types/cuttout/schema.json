@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cuttouts",
+  "info": {
+    "singularName": "cuttout",
+    "pluralName": "cuttouts",
+    "displayName": "Cuttout",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "CutoutInfo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "product-components.product-info"
+    },
+    "CuttoutImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "media-components.image"
+    },
+    "Material": {
+      "type": "enumeration",
+      "enum": [
+        "PVC Foamcore 4 mm"
+      ]
+    },
+    "Colour": {
+      "type": "enumeration",
+      "enum": [
+        "Full colour single sided"
+      ]
+    },
+    "Size": {
+      "type": "enumeration",
+      "enum": [
+        "Rect 1' x 1.5'",
+        "Rect 1' x 2'",
+        "Rect 2' x 3'"
+      ]
+    }
+  }
+}
